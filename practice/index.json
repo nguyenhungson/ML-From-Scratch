@@ -1,0 +1,353 @@
+[
+  {
+    "id": "utils/kernels",
+    "title": "Kernel functions",
+    "level": "01 Cơ sở",
+    "classes": 0,
+    "todo": 3,
+    "behavior_tests": true,
+    "source": "mlfromscratch/utils/kernels.py"
+  },
+  {
+    "id": "utils/data_operation",
+    "title": "Các phép toán nền tảng cho ML",
+    "level": "01 Cơ sở",
+    "classes": 0,
+    "todo": 8,
+    "behavior_tests": true,
+    "source": "mlfromscratch/utils/data_operation.py"
+  },
+  {
+    "id": "utils/data_manipulation",
+    "title": "Tiền xử lý và chia dữ liệu",
+    "level": "01 Cơ sở",
+    "classes": 0,
+    "todo": 12,
+    "behavior_tests": true,
+    "source": "mlfromscratch/utils/data_manipulation.py"
+  },
+  {
+    "id": "utils/misc",
+    "title": "Trực quan hóa kết quả",
+    "level": "02 Công cụ",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": false,
+    "source": "mlfromscratch/utils/misc.py"
+  },
+  {
+    "id": "supervised_learning/perceptron",
+    "title": "Perceptron classifier",
+    "level": "02 Supervised",
+    "classes": 1,
+    "todo": 3,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/perceptron.py"
+  },
+  {
+    "id": "supervised_learning/k_nearest_neighbors",
+    "title": "K-nearest neighbors (KNN)",
+    "level": "02 Supervised",
+    "classes": 1,
+    "todo": 3,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/k_nearest_neighbors.py"
+  },
+  {
+    "id": "supervised_learning/logistic_regression",
+    "title": "Logistic Regression",
+    "level": "02 Supervised",
+    "classes": 1,
+    "todo": 4,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/logistic_regression.py"
+  },
+  {
+    "id": "supervised_learning/naive_bayes",
+    "title": "Gaussian Naive Bayes",
+    "level": "02 Supervised",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/naive_bayes.py"
+  },
+  {
+    "id": "supervised_learning/regression",
+    "title": "Hồi quy tuyến tính và regularization",
+    "level": "03 Supervised",
+    "classes": 10,
+    "todo": 28,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/regression.py"
+  },
+  {
+    "id": "supervised_learning/decision_tree",
+    "title": "Decision Tree classification/regression",
+    "level": "03 Supervised",
+    "classes": 5,
+    "todo": 18,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/decision_tree.py"
+  },
+  {
+    "id": "supervised_learning/random_forest",
+    "title": "Random Forest",
+    "level": "04 Ensemble",
+    "classes": 1,
+    "todo": 3,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/random_forest.py"
+  },
+  {
+    "id": "supervised_learning/adaboost",
+    "title": "AdaBoost",
+    "level": "04 Ensemble",
+    "classes": 2,
+    "todo": 5,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/adaboost.py"
+  },
+  {
+    "id": "supervised_learning/gradient_boosting",
+    "title": "Gradient Boosting",
+    "level": "04 Ensemble",
+    "classes": 3,
+    "todo": 6,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/gradient_boosting.py"
+  },
+  {
+    "id": "supervised_learning/support_vector_machine",
+    "title": "Support Vector Machine (kernel)",
+    "level": "04 Supervised",
+    "classes": 1,
+    "todo": 3,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/support_vector_machine.py"
+  },
+  {
+    "id": "supervised_learning/linear_discriminant_analysis",
+    "title": "LDA classification",
+    "level": "03 Supervised",
+    "classes": 1,
+    "todo": 4,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/linear_discriminant_analysis.py"
+  },
+  {
+    "id": "supervised_learning/multi_class_lda",
+    "title": "Multiclass LDA projection",
+    "level": "04 Supervised",
+    "classes": 1,
+    "todo": 4,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/multi_class_lda.py"
+  },
+  {
+    "id": "supervised_learning/multilayer_perceptron",
+    "title": "MLP từ đầu",
+    "level": "05 Deep Learning",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": true,
+    "source": "mlfromscratch/supervised_learning/multilayer_perceptron.py"
+  },
+  {
+    "id": "supervised_learning/bayesian_regression",
+    "title": "Bayesian Linear Regression",
+    "level": "05 Xác suất",
+    "classes": 1,
+    "todo": 4,
+    "behavior_tests": false,
+    "source": "mlfromscratch/supervised_learning/bayesian_regression.py"
+  },
+  {
+    "id": "supervised_learning/xgboost",
+    "title": "XGBoost-style tree boosting",
+    "level": "06 Advanced",
+    "classes": 2,
+    "todo": 7,
+    "behavior_tests": false,
+    "source": "mlfromscratch/supervised_learning/xgboost.py"
+  },
+  {
+    "id": "supervised_learning/neuroevolution",
+    "title": "Neuroevolution",
+    "level": "06 Advanced",
+    "classes": 1,
+    "todo": 8,
+    "behavior_tests": false,
+    "source": "mlfromscratch/supervised_learning/neuroevolution.py"
+  },
+  {
+    "id": "supervised_learning/particle_swarm_optimization",
+    "title": "Particle Swarm Optimization (PSO)",
+    "level": "06 Advanced",
+    "classes": 1,
+    "todo": 6,
+    "behavior_tests": false,
+    "source": "mlfromscratch/supervised_learning/particle_swarm_optimization.py"
+  },
+  {
+    "id": "unsupervised_learning/k_means",
+    "title": "K-means clustering",
+    "level": "02 Unsupervised",
+    "classes": 1,
+    "todo": 7,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/k_means.py"
+  },
+  {
+    "id": "unsupervised_learning/dbscan",
+    "title": "DBSCAN clustering",
+    "level": "03 Unsupervised",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/dbscan.py"
+  },
+  {
+    "id": "unsupervised_learning/principal_component_analysis",
+    "title": "Principal Component Analysis (PCA)",
+    "level": "02 Unsupervised",
+    "classes": 1,
+    "todo": 1,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/principal_component_analysis.py"
+  },
+  {
+    "id": "unsupervised_learning/gaussian_mixture_model",
+    "title": "Gaussian Mixture Model (EM)",
+    "level": "04 Unsupervised",
+    "classes": 1,
+    "todo": 8,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/gaussian_mixture_model.py"
+  },
+  {
+    "id": "unsupervised_learning/partitioning_around_medoids",
+    "title": "K-medoids / PAM",
+    "level": "03 Unsupervised",
+    "classes": 1,
+    "todo": 8,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/partitioning_around_medoids.py"
+  },
+  {
+    "id": "unsupervised_learning/apriori",
+    "title": "Apriori frequent itemsets",
+    "level": "04 Data mining",
+    "classes": 2,
+    "todo": 10,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/apriori.py"
+  },
+  {
+    "id": "unsupervised_learning/fp_growth",
+    "title": "FP-Growth",
+    "level": "05 Data mining",
+    "classes": 2,
+    "todo": 12,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/fp_growth.py"
+  },
+  {
+    "id": "unsupervised_learning/restricted_boltzmann_machine",
+    "title": "Restricted Boltzmann Machine",
+    "level": "06 Deep Generative",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/restricted_boltzmann_machine.py"
+  },
+  {
+    "id": "unsupervised_learning/genetic_algorithm",
+    "title": "Genetic Algorithm",
+    "level": "04 Optimization",
+    "classes": 1,
+    "todo": 6,
+    "behavior_tests": true,
+    "source": "mlfromscratch/unsupervised_learning/genetic_algorithm.py"
+  },
+  {
+    "id": "unsupervised_learning/autoencoder",
+    "title": "Autoencoder",
+    "level": "06 Deep Generative",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": false,
+    "source": "mlfromscratch/unsupervised_learning/autoencoder.py"
+  },
+  {
+    "id": "unsupervised_learning/generative_adversarial_network",
+    "title": "Generative Adversarial Network (GAN)",
+    "level": "07 Deep Generative",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": false,
+    "source": "mlfromscratch/unsupervised_learning/generative_adversarial_network.py"
+  },
+  {
+    "id": "unsupervised_learning/dcgan",
+    "title": "Deep Convolutional GAN",
+    "level": "07 Deep Generative",
+    "classes": 1,
+    "todo": 5,
+    "behavior_tests": false,
+    "source": "mlfromscratch/unsupervised_learning/dcgan.py"
+  },
+  {
+    "id": "deep_learning/activation_functions",
+    "title": "Activation Functions",
+    "level": "02 Deep Learning",
+    "classes": 8,
+    "todo": 19,
+    "behavior_tests": true,
+    "source": "mlfromscratch/deep_learning/activation_functions.py"
+  },
+  {
+    "id": "deep_learning/loss_functions",
+    "title": "Loss Functions",
+    "level": "02 Deep Learning",
+    "classes": 3,
+    "todo": 10,
+    "behavior_tests": true,
+    "source": "mlfromscratch/deep_learning/loss_functions.py"
+  },
+  {
+    "id": "deep_learning/optimizers",
+    "title": "Optimizers: SGD, Adam, RMSprop",
+    "level": "03 Deep Learning",
+    "classes": 6,
+    "todo": 12,
+    "behavior_tests": true,
+    "source": "mlfromscratch/deep_learning/optimizers.py"
+  },
+  {
+    "id": "deep_learning/layers",
+    "title": "Neural Network Layers",
+    "level": "04 Deep Learning",
+    "classes": 15,
+    "todo": 68,
+    "behavior_tests": true,
+    "source": "mlfromscratch/deep_learning/layers.py"
+  },
+  {
+    "id": "deep_learning/neural_network",
+    "title": "Neural Network training engine",
+    "level": "05 Deep Learning",
+    "classes": 1,
+    "todo": 10,
+    "behavior_tests": false,
+    "source": "mlfromscratch/deep_learning/neural_network.py"
+  },
+  {
+    "id": "reinforcement_learning/deep_q_network",
+    "title": "Deep Q-Network (DQN)",
+    "level": "07 RL",
+    "classes": 1,
+    "todo": 7,
+    "behavior_tests": false,
+    "source": "mlfromscratch/reinforcement_learning/deep_q_network.py"
+  }
+]
