@@ -11,17 +11,13 @@ import numpy as np
 class LDA:
     """Hoàn thiện class LDA từ đầu."""
     def __init__(self):
-        """LDA.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LDA.__init__")
+        pass
 
     def transform(self, X, y):
-        """LDA.transform: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LDA.transform")
+        pass
 
     def fit(self, X, y):
-        """LDA.fit: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LDA.fit")
+        pass
 
     def predict(self, X):
-        """LDA.predict: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LDA.predict")
+        pass

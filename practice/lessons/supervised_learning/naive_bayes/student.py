@@ -10,22 +10,44 @@ import numpy as np
 
 class NaiveBayes:
     """Hoàn thiện class NaiveBayes từ đầu."""
+
     def fit(self, X, y):
-        """NaiveBayes.fit: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: NaiveBayes.fit")
+        self.y = y
+        self.classes = np.unique(y)
+        self.means, self.vars = [], []
+
+        for c in self.classes:
+            X_c = X[y == c]
+            mean = np.mean(X_c, axis=0)
+            var = np.var(X_c, axis=0)
+
+            self.means.append(mean)
+            self.vars.append(var)
+
+        self.means = np.array(self.means)
+        self.vars = np.array(self.vars)
 
     def _calculate_likelihood(self, mean, var, x):
-        """NaiveBayes._calculate_likelihood: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: NaiveBayes._calculate_likelihood")
-
+        likelihood = 1 / np.sqrt(2 * np.pi * var) * np.exp(-np.square(x - mean) / (2 * var))
+        return likelihood
+    
     def _calculate_prior(self, c):
-        """NaiveBayes._calculate_prior: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: NaiveBayes._calculate_prior")
+        return np.sum(self.y == c) / len(self.y)
+        pass
 
     def _classify(self, sample):
-        """NaiveBayes._classify: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: NaiveBayes._classify")
+        scores = []
+        for i, c in enumerate(self.classes):
+            prior = self._calculate_prior(c)
+            likelihood = self._calculate_likelihood(self.means[i], self.vars[i], sample)
+            log_score = np.log(prior) + np.sum(np.log(likelihood))
+            scores.append(log_score)
+        return self.classes[np.argmax(scores)]
+        pass
 
     def predict(self, X):
-        """NaiveBayes.predict: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: NaiveBayes.predict")
+        predictions = []
+        for sample in X:
+            predictions.append(self._classify(sample))
+        return np.array(predictions)
+        pass

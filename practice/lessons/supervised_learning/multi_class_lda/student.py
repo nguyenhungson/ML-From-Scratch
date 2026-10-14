@@ -11,17 +11,13 @@ import numpy as np
 class MultiClassLDA:
     """Hoàn thiện class MultiClassLDA từ đầu."""
     def __init__(self, solver='svd'):
-        """MultiClassLDA.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: MultiClassLDA.__init__")
+        pass
 
     def _calculate_scatter_matrices(self, X, y):
-        """MultiClassLDA._calculate_scatter_matrices: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: MultiClassLDA._calculate_scatter_matrices")
+        pass
 
     def transform(self, X, y, n_components):
-        """MultiClassLDA.transform: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: MultiClassLDA.transform")
+        pass
 
     def plot_in_2d(self, X, y, title=None):
-        """MultiClassLDA.plot_in_2d: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: MultiClassLDA.plot_in_2d")
+        pass

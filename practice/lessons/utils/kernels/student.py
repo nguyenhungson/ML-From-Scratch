@@ -9,13 +9,10 @@ import math
 import numpy as np
 
 def linear_kernel(**kwargs):
-    """linear_kernel: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: linear_kernel")
+    pass
 
 def polynomial_kernel(power, coef, **kwargs):
-    """polynomial_kernel: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: polynomial_kernel")
+    pass
 
 def rbf_kernel(gamma, **kwargs):
-    """rbf_kernel: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: rbf_kernel")
+    pass

@@ -11,33 +11,25 @@ import numpy as np
 class PAM:
     """Hoàn thiện class PAM từ đầu."""
     def __init__(self, k=2):
-        """PAM.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM.__init__")
+        pass
 
     def _init_random_medoids(self, X):
-        """PAM._init_random_medoids: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM._init_random_medoids")
+        pass
 
     def _closest_medoid(self, sample, medoids):
-        """PAM._closest_medoid: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM._closest_medoid")
+        pass
 
     def _create_clusters(self, X, medoids):
-        """PAM._create_clusters: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM._create_clusters")
+        pass
 
     def _calculate_cost(self, X, clusters, medoids):
-        """PAM._calculate_cost: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM._calculate_cost")
+        pass
 
     def _get_non_medoids(self, X, medoids):
-        """PAM._get_non_medoids: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM._get_non_medoids")
+        pass
 
     def _get_cluster_labels(self, clusters, X):
-        """PAM._get_cluster_labels: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM._get_cluster_labels")
+        pass
 
     def predict(self, X):
-        """PAM.predict: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PAM.predict")
+        pass

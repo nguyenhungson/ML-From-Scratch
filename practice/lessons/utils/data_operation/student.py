@@ -9,33 +9,25 @@ import math
 import numpy as np
 
 def calculate_entropy(y):
-    """calculate_entropy: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: calculate_entropy")
+    pass
 
 def mean_squared_error(y_true, y_pred):
-    """mean_squared_error: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: mean_squared_error")
+    pass
 
 def calculate_variance(X):
-    """calculate_variance: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: calculate_variance")
+    pass
 
 def calculate_std_dev(X):
-    """calculate_std_dev: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: calculate_std_dev")
+    pass
 
 def euclidean_distance(x1, x2):
-    """euclidean_distance: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: euclidean_distance")
+    pass
 
 def accuracy_score(y_true, y_pred):
-    """accuracy_score: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: accuracy_score")
+    pass
 
 def calculate_covariance_matrix(X, Y=None):
-    """calculate_covariance_matrix: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: calculate_covariance_matrix")
+    pass
 
 def calculate_correlation_matrix(X, Y=None):
-    """calculate_correlation_matrix: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: calculate_correlation_matrix")
+    pass

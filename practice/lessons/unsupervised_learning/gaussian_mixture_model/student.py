@@ -11,33 +11,25 @@ import numpy as np
 class GaussianMixtureModel:
     """Hoàn thiện class GaussianMixtureModel từ đầu."""
     def __init__(self, k=2, max_iterations=2000, tolerance=1e-08):
-        """GaussianMixtureModel.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel.__init__")
+        pass
 
     def _init_random_gaussians(self, X):
-        """GaussianMixtureModel._init_random_gaussians: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel._init_random_gaussians")
+        pass
 
     def multivariate_gaussian(self, X, params):
-        """GaussianMixtureModel.multivariate_gaussian: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel.multivariate_gaussian")
+        pass
 
     def _get_likelihoods(self, X):
-        """GaussianMixtureModel._get_likelihoods: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel._get_likelihoods")
+        pass
 
     def _expectation(self, X):
-        """GaussianMixtureModel._expectation: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel._expectation")
+        pass
 
     def _maximization(self, X):
-        """GaussianMixtureModel._maximization: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel._maximization")
+        pass
 
     def _converged(self, X):
-        """GaussianMixtureModel._converged: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel._converged")
+        pass
 
     def predict(self, X):
-        """GaussianMixtureModel.predict: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GaussianMixtureModel.predict")
+        pass

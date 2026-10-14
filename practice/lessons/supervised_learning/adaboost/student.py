@@ -11,25 +11,20 @@ import numpy as np
 class DecisionStump:
     """Hoàn thiện class DecisionStump từ đầu."""
     def __init__(self):
-        """DecisionStump.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DecisionStump.__init__")
+        pass
 
 
 class Adaboost:
     """Hoàn thiện class Adaboost từ đầu."""
     def __init__(self, n_clf=5):
-        """Adaboost.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: Adaboost.__init__")
+        pass
 
     def fit(self, X, y):
-        """Adaboost.fit: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: Adaboost.fit")
+        pass
 
     def predict(self, X):
-        """Adaboost.predict: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: Adaboost.predict")
+        pass
 
 
 def main():
-    """main: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-    raise NotImplementedError("TODO: main")
+    pass

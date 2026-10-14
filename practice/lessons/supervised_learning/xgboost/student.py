@@ -11,32 +11,25 @@ import numpy as np
 class LogisticLoss:
     """Hoàn thiện class LogisticLoss từ đầu."""
     def __init__(self):
-        """LogisticLoss.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LogisticLoss.__init__")
+        pass
 
     def loss(self, y, y_pred):
-        """LogisticLoss.loss: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LogisticLoss.loss")
+        pass
 
     def gradient(self, y, y_pred):
-        """LogisticLoss.gradient: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LogisticLoss.gradient")
+        pass
 
     def hess(self, y, y_pred):
-        """LogisticLoss.hess: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: LogisticLoss.hess")
+        pass
 
 
 class XGBoost(object):
     """Hoàn thiện class XGBoost từ đầu."""
     def __init__(self, n_estimators=200, learning_rate=0.001, min_samples_split=2, min_impurity=1e-07, max_depth=2):
-        """XGBoost.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: XGBoost.__init__")
+        pass
 
     def fit(self, X, y):
-        """XGBoost.fit: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: XGBoost.fit")
+        pass
 
     def predict(self, X):
-        """XGBoost.predict: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: XGBoost.predict")
+        pass

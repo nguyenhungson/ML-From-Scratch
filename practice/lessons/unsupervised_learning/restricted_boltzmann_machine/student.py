@@ -11,21 +11,16 @@ import numpy as np
 class RBM:
     """Hoàn thiện class RBM từ đầu."""
     def __init__(self, n_hidden=128, learning_rate=0.1, batch_size=10, n_iterations=100):
-        """RBM.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: RBM.__init__")
+        pass
 
     def _initialize_weights(self, X):
-        """RBM._initialize_weights: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: RBM._initialize_weights")
+        pass
 
     def fit(self, X, y=None):
-        """RBM.fit: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: RBM.fit")
+        pass
 
     def _sample(self, X):
-        """RBM._sample: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: RBM._sample")
+        pass
 
     def reconstruct(self, X):
-        """RBM.reconstruct: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: RBM.reconstruct")
+        pass

@@ -11,5 +11,4 @@ import numpy as np
 class PCA:
     """Hoàn thiện class PCA từ đầu."""
     def transform(self, X, n_components):
-        """PCA.transform: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: PCA.transform")
+        pass

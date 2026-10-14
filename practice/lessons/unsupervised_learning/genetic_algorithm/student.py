@@ -11,25 +11,19 @@ import numpy as np
 class GeneticAlgorithm:
     """Hoàn thiện class GeneticAlgorithm từ đầu."""
     def __init__(self, target_string, population_size, mutation_rate):
-        """GeneticAlgorithm.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GeneticAlgorithm.__init__")
+        pass
 
     def _initialize(self):
-        """GeneticAlgorithm._initialize: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GeneticAlgorithm._initialize")
+        pass
 
     def _calculate_fitness(self):
-        """GeneticAlgorithm._calculate_fitness: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GeneticAlgorithm._calculate_fitness")
+        pass
 
     def _mutate(self, individual):
-        """GeneticAlgorithm._mutate: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GeneticAlgorithm._mutate")
+        pass
 
     def _crossover(self, parent1, parent2):
-        """GeneticAlgorithm._crossover: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GeneticAlgorithm._crossover")
+        pass
 
     def run(self, iterations):
-        """GeneticAlgorithm.run: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: GeneticAlgorithm.run")
+        pass

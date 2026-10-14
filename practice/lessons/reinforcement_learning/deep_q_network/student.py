@@ -11,29 +11,22 @@ import numpy as np
 class DeepQNetwork:
     """Hoàn thiện class DeepQNetwork từ đầu."""
     def __init__(self, env_name='CartPole-v1', epsilon=1, gamma=0.9, decay_rate=0.005, min_epsilon=0.1):
-        """DeepQNetwork.__init__: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DeepQNetwork.__init__")
+        pass
 
     def set_model(self, model):
-        """DeepQNetwork.set_model: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DeepQNetwork.set_model")
+        pass
 
     def _select_action(self, state):
-        """DeepQNetwork._select_action: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DeepQNetwork._select_action")
+        pass
 
     def _memorize(self, state, action, reward, new_state, done):
-        """DeepQNetwork._memorize: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DeepQNetwork._memorize")
+        pass
 
     def _construct_training_set(self, replay):
-        """DeepQNetwork._construct_training_set: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DeepQNetwork._construct_training_set")
+        pass
 
     def train(self, n_epochs=500, batch_size=32):
-        """DeepQNetwork.train: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DeepQNetwork.train")
+        pass
 
     def play(self, n_epochs):
-        """DeepQNetwork.play: tự cài đặt theo README.md. Không sao chép mã tham khảo trước khi làm."""
-        raise NotImplementedError("TODO: DeepQNetwork.play")
+        pass

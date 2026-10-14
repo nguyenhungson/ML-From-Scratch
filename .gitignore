@@ -1,9 +1,44 @@
-*~
-\.DS_STORE
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging
 build/
 dist/
-*egg-info*
-*__pycache__/
-*.py[cod]
-*eggs*
-*\.png
+*.egg-info/
+.eggs/
+*.egg
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
